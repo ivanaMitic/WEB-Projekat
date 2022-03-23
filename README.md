@@ -1,5 +1,5 @@
 "# WEB-Projekat" 
-PLesni Klubovi
+Plesni Klubovi
 
 	Kreirana web aplikacija namenjana je instruktorima plesa različitih plesnih klubova i omogućava im:
  	-upis novih članova kluba,
