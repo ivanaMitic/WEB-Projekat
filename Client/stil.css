@@ -1,0 +1,267 @@
+.GlavnaForma, .Clan, .ClanPrikaz, .RedHederClan, .RedPodaciClan, .Clanarina, .ClanarinaPrikaz, .Clanarina1, .c2cl1, .c2cl2, .RedTabelaClanarina, .TabelaClanarina, .OvajRed, .TabelaHederPodaciClanarina, .TabelaPodaciClanarina
+{
+    display: flex;
+    flex-direction: column;
+}
+.FormaClan, .FormaClanarina, .RedClan, .RedDugmadi,.TabelaClanHeder, .TabelaClan, .Clanarina2, .RedClanarina, .RedJBClanarina, .RedCenaClanarina, .RedHederClanarina, .RedClanarina, .RedRadio
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.FormaClan, .FormaClanarina, .RedClan, .RedClanarina
+{
+    flex-wrap: wrap;
+}
+.RedDugmadi, .RedJBClanarina, .RedRadio, .RedCenaClanarina
+{
+    flex-wrap: nowrap;
+}
+.RedCenaClanarina
+{
+    margin-right: 65px;
+}
+
+.GlavnaForma
+{
+    background-color: rgb(203, 255, 238);
+}
+
+.GlavniNaslov
+{
+    margin: 4px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration:underline 4px rgb(255, 185, 119);
+}
+.Godina
+{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.FormaClan, .FormaClanarina
+{
+    background-color: rgb(125, 232, 240);
+    margin: 6px;
+    padding: 13px;
+    border-top: 10px double rgb(255, 185, 119);
+    border-bottom: 10px double rgb(255, 185, 119);
+}
+.Clan, .Clanarina
+{
+    background-color: rgb(255, 185, 119);
+    margin: 6px;
+    padding: 10px;
+    border: 2px solid black;
+    justify-content: space-evenly;
+   
+}
+.Clan, .Clanarina
+{
+    max-width: 400px;
+    flex-grow: 1;
+}
+.Clanarina1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Clanarina2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c2cl1, .c2cl1
+{
+    flex-grow: 1;
+}
+
+.ClanPrikaz
+{
+    padding: 6px;
+    flex-grow: 1;
+}
+.ClanarinaPrikaz
+{
+    padding: 6px;
+}
+
+.RedDugmadi
+{
+    margin-top: 12px;
+    justify-content: space-evenly;
+}
+
+.PodacilabelaC
+{
+    width: 60px;
+}
+.Podacilabela
+{
+    width: 50px;
+    align-self: center;
+}
+
+.RedClan
+{
+    margin: 5px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.prezime, .ime, .jb
+{
+    width:145px;
+}
+.kategorija
+{
+    padding: 3px;
+    width:158px;
+}
+
+.TabelaClan
+{
+    margin-left: 20px;
+}
+.TabelaClanarina, .Godina
+{
+    margin: 3px;
+    margin-left: 20px;
+}
+.jb, .ime, .prezime, .datum, .kategorija
+{
+    min-width: 153px;
+}
+.godina, .jbc
+{
+    max-width: 153px;
+}
+.PodacilabelaJB, .jbc, .button
+{
+    margin-right: 8px;
+} 
+
+.mesec
+{
+    width: 161px;
+    margin-left: 10px;
+}
+.godina
+{
+    margin-left: 4px;
+}
+
+.c2cl1, .c2cl2
+{
+    margin: 8px;
+}
+
+.cena
+{
+    margin-right: 6px;
+    margin-top: 6px;
+    width: 62px;
+}
+.RedRadio
+{
+    margin: 3px;
+}
+.RedRed
+{
+    margin: 5px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.thClanarina, .tdClanarina
+{
+    padding: 4px;
+    width: 70px;
+    flex-grow: 1;
+    text-align: left;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.tdClanarina
+{
+    color: rgb(255, 167, 4);
+}
+.thClan, .tdClan
+{
+    padding: 3px;
+    /* width: 60px; */
+    flex-grow: 1;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.tdClan
+{
+    color: rgb(255, 167, 4);
+}
+.thClan
+{
+    text-align: right;
+    border-right: 1px solid black;
+}
+.RedNaslov
+{
+    margin: 6px;
+    font-size: 25px;
+}
+
+.RedJBClanarina
+{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin: 5px;
+    justify-content: flex-start;
+
+}
+/* ****************************************** */
+.GlavnaFormaPocetna
+{
+    background-color: rgb(255, 185, 119);
+    border: 7px dotted rgb(122, 245, 202);
+    height: 620px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.PocetnaNaslov, .IzborPK, .Password
+{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.Password
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.PrijaviSe, .IzborUpisPass, .PasswordLabela, .IzborUpisKlub, .IzborLabela
+{
+    margin: 6px;
+}
+.PocetnaNaslov
+{
+    border-bottom:6px double rgb(122, 245, 202);
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+.IzborUpisKlub
+{
+    padding: 3px;
+}
+
+
+/* ****************************************** */
+
+
